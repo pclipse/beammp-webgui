@@ -1,6 +1,12 @@
-![BeamMP Server Manager](https://virtualtmp.com/yVxUKHlpy6nv.png)
+![BeamMP Server Control](https://virtualtmp.com/yVxUKHlpy6nv.png)
 
-This project provides a web-based GUI for controlling a BeamMP server. It allows you to manage active and inactive mods, configure server settings, and monitor connected users, all from a user-friendly interface.
+This project provides a web-based GUI for controlling a BeamMP server, implemented using Flask. It allows you to manage active and inactive mods, configure server settings, and monitor connected users, all from a user-friendly interface hosted locally. The Web UI interacts directly with the BeamMP server files, moving mods between active and inactive states and editing the server configuration. It also includes a login system for secure access and real-time monitoring of server status and connected users. This setup is designed to be run on Windows machines.
+
+## Preview
+
+![Preview 1](https://virtualtmp.com/JCcYjOFMYwoz.png)
+![Preview 2](https://virtualtmp.com/xVMR9pgVGgUx.png)
+![Preview 3](https://virtualtmp.com/utHo3D6nV2XW.png)
 
 ## Features
 
@@ -47,10 +53,10 @@ This project provides a web-based GUI for controlling a BeamMP server. It allows
    ```sh
    pip install flask flask-login wtforms psutil toml
 
-**Note: BeamMP Server**
+4. **Note: Setup BeamMP Server**
 
-The Resources folder in this package replaces the original 'Resources' folder that comes with the downloaded BeamNG server package.
-Ensure that the default 'ServerConfig.toml' file remains in the main BeamMP Server directory. (The one that comes with the server. You will have 2 in the end. One in main directory and one in 'WebUI' directory)
+   - The `Resources` folder in this package replaces the original `Resources` folder that comes with the downloaded BeamNG server package.
+   - Ensure that the default `ServerConfig.toml` file remains in the main BeamMP Server directory.
 
 5. **Configure Web GUI**
 
@@ -81,18 +87,25 @@ Ensure that the default 'ServerConfig.toml' file remains in the main BeamMP Serv
      app.config['SECRET_KEY'] = b'your_generated_secret_key'
      ```
 
-7. **Run the Web GUI**
+   - Once the secret key is generated and saved in the `app.py` file, you can delete the `generate_secret_key.py` file.
+
+7. **Update BEAMMP_DIR Path**
+
+   Open the `app.py` file and update the `BEAMMP_DIR` variable on line 63 to reflect the directory where your BeamMP Server is extracted:
+
+   ```python
+   BEAMMP_DIR = r'C:/Users/Administrator/Desktop/BeamMP Server'  # Update this path
+
+8. **Run the Web GUI**
 
    Run the Web GUI by executing the `StartWebUI.bat` file.
 
-8. **Access the Web GUI**
+9. **Access the Web GUI**
 
    Open your web browser and navigate to `http://localhost:5000`. Use the following credentials to log in:
 
    - **Username:** admin
    - **Password:** admin
-
-   *These credentials can be change inside the 'app.py' file.*
 
 ## Important Note
 
@@ -121,10 +134,8 @@ The `ServerConfig.toml` file inside the `WebGUI` folder is used to configure you
 
 ## Contributing
 
-Contributions are welcome!
+Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
 
 ## Contact
 
-For any questions or feedback, please reach out to me on here.
-
-
+For any questions or feedback, please reach out to me on here or message me "pclipse" on the BeamMP discord.
