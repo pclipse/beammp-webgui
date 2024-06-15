@@ -107,6 +107,8 @@ This project provides a web-based GUI for controlling a BeamMP server, implement
    - **Username:** admin
    - **Password:** admin
 
+   These credentials can be changed inside the `app.py` file.
+
 ## Important Note
 
 Initially, put all of your mods in the `/Resources/` folder and organize the mods into their respective `/Cars/` or `/Tracks/` folder. Then, through the Web GUI, activate whichever mods you require for your server. If you have mods that don't perfectly fit into either 'Cars' or 'Tracks', just put them in the `/Cars/` folder because you are able to select multiple mods in that section.
