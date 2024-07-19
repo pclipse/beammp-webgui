@@ -22,6 +22,7 @@ This project provides a web-based GUI for controlling a BeamMP server, implement
 - [Python 3.x](https://www.python.org/)
 - [Flask](https://flask.palletsprojects.com/)
 - [Flask-Login](https://flask-login.readthedocs.io/)
+- [Flask-WTF](https://flask-wtf.readthedocs.io/)
 - [WTForms](https://wtforms.readthedocs.io/)
 - [psutil](https://pypi.org/project/psutil/)
 - [TOML](https://pypi.org/project/toml/)
@@ -51,7 +52,7 @@ This project provides a web-based GUI for controlling a BeamMP server, implement
    Open a terminal or command prompt and navigate to the project directory. Then run:
 
    ```sh
-   pip install flask flask-login wtforms psutil toml
+   pip install Flask Flask-Login Flask-WTF WTForms psutil toml
 
 4. **Note: Setup BeamMP Server**
 
