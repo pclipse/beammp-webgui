@@ -1,4 +1,4 @@
-![BeamMP Server Control](https://virtualtmp.com/yVxUKHlpy6nv.png)
+![BeamMP Server Control](https://data.virtualtmp.com/yVxUKHlpy6nv.png)
 
 This project provides a web-based GUI for controlling a BeamMP server, implemented using Flask. It allows you to manage active and inactive mods, configure server settings, and monitor connected users, all from a user-friendly interface hosted locally. The Web UI interacts directly with the BeamMP server files, moving mods between active and inactive states and editing the server configuration. It also includes a login system for secure access and real-time monitoring of server status and connected users. This setup is designed to be run on Windows machines.
 
