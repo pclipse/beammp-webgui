@@ -4,9 +4,9 @@ This project provides a web-based GUI for controlling a BeamMP server, implement
 
 ## Preview
 
-![Preview 1](https://virtualtmp.com/JCcYjOFMYwoz.png)
-![Preview 2](https://virtualtmp.com/xVMR9pgVGgUx.png)
-![Preview 3](https://virtualtmp.com/utHo3D6nV2XW.png)
+![Preview 1](https://data.virtualtmp.com/JCcYjOFMYwoz.png)
+![Preview 2](https://data.virtualtmp.com/xVMR9pgVGgUx.png)
+![Preview 3](https://data.virtualtmp.com/utHo3D6nV2XW.png)
 
 ## Features
 
@@ -39,11 +39,11 @@ This project provides a web-based GUI for controlling a BeamMP server, implement
 
    Download the project files from the provided .zip file and extract them to your desired location. The folder structure should look like this:
 
-   ![Folder Structure Part 1](https://virtualtmp.com/Ag5CH0oiP28v.png)
+   ![Folder Structure Part 1](https://data.virtualtmp.com/Ag5CH0oiP28v.png)
    
    This is the default BeamMP server folder where we paste the "WebGUI" folder after it's extracted.
 
-   ![Folder Structure Part 2](https://virtualtmp.com/cb7d22U8sddB.png)
+   ![Folder Structure Part 2](https://data.virtualtmp.com/cb7d22U8sddB.png)
    
    WebGUI folder structure
 
