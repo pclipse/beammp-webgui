@@ -1,12 +1,12 @@
-![BeamMP Server Control](https://data.virtualtmp.com/yVxUKHlpy6nv.png)
+![BeamMP Server Control](/images/logo.png)
 
 This project provides a web-based GUI for controlling a BeamMP server, implemented using Flask. It allows you to manage active and inactive mods, configure server settings, and monitor connected users, all from a user-friendly interface hosted locally. The Web UI interacts directly with the BeamMP server files, moving mods between active and inactive states and editing the server configuration. It also includes a login system for secure access and real-time monitoring of server status and connected users. This setup is designed to be run on Windows machines.
 
 ## Preview
 
-![Preview 1](https://data.virtualtmp.com/JCcYjOFMYwoz.png)
-![Preview 2](https://data.virtualtmp.com/xVMR9pgVGgUx.png)
-![Preview 3](https://data.virtualtmp.com/utHo3D6nV2XW.png)
+![Preview 1](/images/1.png)
+![Preview 2](/images/2.png)
+![Preview 3](/images/3.png)
 
 ## Features
 
@@ -39,11 +39,11 @@ This project provides a web-based GUI for controlling a BeamMP server, implement
 
    Download the project files from the provided .zip file and extract them to your desired location. The folder structure should look like this:
 
-   ![Folder Structure Part 1](https://data.virtualtmp.com/Ag5CH0oiP28v.png)
+   ![Folder Structure Part 1](/images/4.png)
    
    This is the default BeamMP server folder where we paste the "WebGUI" folder after it's extracted.
 
-   ![Folder Structure Part 2](https://data.virtualtmp.com/cb7d22U8sddB.png)
+   ![Folder Structure Part 2](/images/5.png)
    
    WebGUI folder structure
 
